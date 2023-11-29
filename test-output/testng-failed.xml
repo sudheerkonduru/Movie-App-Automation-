@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Banking Login]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Banking Login Test(failed)">
+    <classes>
+      <class name="RegistrationFormTest">
+        <methods>
+          <include name="testRegisterWithValidCreds"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- RegistrationFormTest -->
+    </classes>
+  </test> <!-- Banking Login Test(failed) -->
+</suite> <!-- Failed suite [Banking Login] -->
